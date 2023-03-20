@@ -1,4 +1,4 @@
-FROM node:latest
+FROM node:18
 
 MAINTAINER Martin Kluska <martin@kluska.cz>
 

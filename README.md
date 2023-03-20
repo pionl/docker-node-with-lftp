@@ -5,17 +5,20 @@ Without entrypoint - usable for gitlab CI
 ## Pre-installed packages:
 
 - lftp
+- openssh-client (to allow git+ssh)
 
 ## Tags:
 
 - pionl/node-with-lftp:8
-- pionl/node-with-lftp:9
 - pionl/node-with-lftp:10
-- pionl/node-with-lftp:latest (node 9)
+- pionl/node-with-lftp:12
+- pionl/node-with-lftp:18
+- pionl/node-with-lftp:latest
 - pionl/node-with-lftp:8-alpine
-- pionl/node-with-lftp:9-alpine
 - pionl/node-with-lftp:10-alpine
-- pionl/node-with-lftp:alpine (node alpine)
+- pionl/node-with-lftp:12-alpine
+- pionl/node-with-lftp:18-alpine
+- pionl/node-with-lftp:12-alpine
 
 ```docker
 FROM pionl/node-with-lftp:8

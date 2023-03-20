@@ -1,7 +1,7 @@
-FROM node:9
+FROM node:12-alpine
 
 MAINTAINER Martin Kluska <martin@kluska.cz>
 
-RUN apt-get update \
-	&& apt-get install -y lftp \
+RUN apk update \
+	&& apk add lftp openssh-client \
 	&& rm -rf /var/lib/apt/lists/*
